@@ -1,0 +1,72 @@
+
+body{
+    margin: 0%;
+    background-color: skyblue;
+}
+
+nav{
+    text-align: center;
+}
+nav a{
+    padding-left: 20px;
+}
+.container{
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+legend,h1{
+    font-size: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 3px solid black;
+}
+input[type=text], input[type=password], select {
+    width: 100%;
+    padding: 15px 20px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 15px 25px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form
+{
+    width:800px
+    border-radius:8px;
+    box-shadow:0 0 40px -10px #000;
+    margin:calc(50vh - 220px) auto;
+    padding:20px 30px;
+    max-width:calc(100vw - 40px);
+    box-sizing:border-box;
+    position:relative;
+}
+
+.signin-form
+{
+    width:500px;
+    border-radius:5px;
+    box-shadow:0 0 40px -5px #000;
+    margin:auto;
+    padding:20px 30px;
+    box-sizing:border-box;
+    position:inherit;
+}
